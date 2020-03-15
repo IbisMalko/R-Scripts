@@ -5,4 +5,4 @@ data("murders")
 library(dplyr)
 
 # Create a boxplot of state populations by region for the murders dataset
-boxplot(murders$population~region, data = murders)
+boxplot(population~region, data = murders)
