@@ -107,8 +107,14 @@ hist(olive$eicosenoic)
 
 ##10
 #Make a boxplot of palmitic acid percentage in olive with separate distributions for each region.
+boxplot(palmitic~region, data = olive)
 
 #Which region has the highest median palmitic acid percentage?
 
+#-- ANS: Southern Italy
+
 #Which region has the most variable palmitic acid percentage?
+
+#-- ANS: Southern Italy
+
 
